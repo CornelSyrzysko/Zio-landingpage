@@ -1,0 +1,65 @@
+body {
+    background-color: yellow;
+}
+
+.main-content{
+    width: 100%;
+    margin: 0 auto;
+    background-color: brown;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-color: lightblue;
+    }
+}  
+
+@media screen and (min-width: 1360px){
+    body{
+        background-color: aqua;
+    }    
+
+    .main-content{
+        width: 1360px;
+    }
+}
+/* Test classes */
+.test1{
+    border: 1px solid red;
+}
+
+.test2{
+    border: 1px solid yellow;
+}
+
+/*Navigation CSS*/
+
+.nav {
+    height: 100px;
+    background: grey;
+}
+
+.navBar {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+  float: left;
+  position: relative;
+}
+
+  .nav-list {
+    display: block !important;
+  }
