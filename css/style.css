@@ -40,31 +40,31 @@ body {
 
 /* MEDIA QUERIES */
 /* Mobile display */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     body {
       background-color: rgb(189, 189, 189) 
     }
-    .nav-mobile {
-    display: block;
-  }
 
-  nav {
-    width: 100%;
-    padding: 70px 0 15px;
-  }
-  nav ul {
-    display: none;
-  }
-  nav ul li {
-    float: none;
-  }
-  nav ul li a {
-    padding: 15px;
-    line-height: 20px;
-  }
-  nav ul li ul li a {
-    padding-left: 30px;
-  }
+    .nav-mobile {
+        display: block ;
+    }
+    nav {
+        width: 100%;
+        padding: 70px 0 10px;
+    }
+    nav ul {
+        display: none;
+    }
+    nav ul li {
+        float: none;
+    }
+    nav ul li a {
+        padding: 10px;
+        line-height: 20px;
+    }
+    nav ul li ul li a {
+        padding-left: 25px;
+    }
 
 }  
 
@@ -156,13 +156,13 @@ nav ul li ul li a {
 
 /* Mobile navigation */
 .nav-mobile {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: #262626;
-  height: 70px;
-  width: 70px;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #262626;
+    height: 70px;
+    width: 70px;
 }
 
 #nav-toggle {
