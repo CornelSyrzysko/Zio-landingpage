@@ -6,12 +6,43 @@ body {
 .main-content{
     width: 100%;
     margin: 0 auto;
-    background-color: brown;
 }
 
+/* test button 2 (<a>) */
+.btn{
+    display: inline-block;
+    background-color: white;
+    height: 25px;
+    width: 10%;
+    text-decoration: none;
+    
+}
+
+.btn span{
+    padding-top: 2px;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    background-color: white;
+    width: 70%;
+    height: 100%;
+}
+
+.btn i{
+    padding-top: 2px;
+    text-align: center;
+    /* padding: 0 5px; */
+    color: white;
+    background-color: black;    
+    width: 30%;
+    height: 100%;
+}
+
+/* MEDIA QUERIES */
+/* Mobile display */
 @media screen and (max-width: 400px) {
     body {
-        background-color: lightblue;
+      background-color: rgb(189, 189, 189) 
     }
     .nav-mobile {
     display: block;
@@ -37,9 +68,10 @@ body {
 
 }  
 
+/* Large display */
 @media screen and (min-width: 1360px){
     body{
-        background-color: aqua;
+        background-color: rgb(112, 112, 112);
     }    
 
     .main-content{
@@ -47,6 +79,7 @@ body {
     }
 
 }
+
 /* Test classes */
 .test1{
     border: 1px solid red;
