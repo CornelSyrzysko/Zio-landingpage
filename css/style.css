@@ -38,47 +38,7 @@ body {
     height: 100%;
 }
 
-/* MEDIA QUERIES */
-/* Mobile display */
-@media screen and (max-width: 500px) {
-    body {
-      background-color: rgb(189, 189, 189) 
-    }
 
-    .nav-mobile {
-        display: block ;
-    }
-    nav {
-        width: 100%;
-        padding: 70px 0 10px;
-    }
-    nav ul {
-        display: none;
-    }
-    nav ul li {
-        float: none;
-    }
-    nav ul li a {
-        padding: 10px;
-        line-height: 20px;
-    }
-    nav ul li ul li a {
-        padding-left: 25px;
-    }
-
-}  
-
-/* Large display */
-@media screen and (min-width: 1360px){
-    body{
-        background-color: rgb(112, 112, 112);
-    }    
-
-    .main-content{
-        width: 1360px;
-    }
-
-}
 
 /* Test classes */
 .test1{
@@ -103,7 +63,6 @@ body {
 
 .logo {
     position: absolute;
-    padding-left: 20px;
     float: left;
     height: 100px;
     line-height: 100px;
@@ -143,11 +102,11 @@ nav ul li a:visited:hover {
 
 nav ul li a:not(:only-child):after,
 nav ul li a:visited:not(:only-child):after {
-  padding-left: 5px;
+  padding-left: 4px;
   content: ' ▾';
 }
 nav ul li ul li {
-  min-width: 200px;
+  min-width: 190px;
 }
 nav ul li ul li a {
   padding: 15px;
@@ -158,17 +117,17 @@ nav ul li ul li a {
 .nav-mobile {
     display: none;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 25px;
+    right: 25px;
     background: #262626;
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
 }
 
 #nav-toggle {
   position: absolute;
-  left: 18px;
-  top: 22px;
+  left: 25px;
+  top: 25px;
   cursor: pointer;
   padding: 10px 35px 16px 0px;
 }
@@ -202,4 +161,51 @@ nav ul li ul li a {
 }
 #nav-toggle.active span:after {
   transform: rotate(-45deg);
+}
+
+/* MEDIA QUERIES */
+/* Mobile display */
+@media screen and (max-width: 500px) {
+    body {
+      background-color: rgb(189, 189, 189) 
+    }
+
+    .nav-mobile {
+        display: block ;
+    }
+    nav {
+        width: 100%;
+        padding: 100px 0 10px;
+    }
+    nav ul {
+        display: none;
+    }
+    nav ul li {
+        float: none;
+    }
+    nav ul li a {
+        padding: 10px;
+        line-height: 20px;
+        top:20px;
+    }
+    nav ul li ul li a {
+        padding-left: 25px;
+    }
+
+}  
+
+/* Large display */
+@media screen and (min-width: 1360px){
+    body{
+        background-color: rgb(112, 112, 112);
+    }    
+
+    .main-content{
+        width: 1360px;
+    }
+
+    .nav-list {
+    display: block !important;
+  }
+
 }
