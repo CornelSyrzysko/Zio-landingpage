@@ -4,17 +4,39 @@
         <title>Zio Food Sasolburg</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+        <script>
+            (function ($) { // Begin jQuery
+                $(function () { // DOM ready
+   
+                    // Toggle open and close nav styles on click
+                    $('#nav-toggle').click(function () {
+                        $('nav ul').slideToggle();
+                    });
+                    // Hamburger to X toggle
+                    $('#nav-toggle').on('click', function () {
+                        this.classList.toggle('active');
+                    });
+                }); // end DOM ready
+            })(jQuery); // end jQuery
+        </script>
+
+        
     </head>
 
+    
     <body>
 
             <!--Nav Bar / Header section-->
-        <header class="nav"> 
-            <div class="navBar">
-                <div class="logo"> Our Logo
+        <header class="nav-bar"> 
+            <div class="nav-container">
+                <div class="logo">
+                    <p> Our Logo </p>
 
                 </div>
                 <nav>
+                    <div class="nav-mobile"><a id="nav-toggle" href="#"> <span> </span> </a></div>
                     <ul class="nav-list">
                         <li>
                             <a href="">Home</a>
