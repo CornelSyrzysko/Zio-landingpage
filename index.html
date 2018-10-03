@@ -4,13 +4,13 @@
         <title>Zio Food Sasolburg</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="css/bulma.min.css"> -->
         <link rel="stylesheet" href="css/style.css">
         <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 
         <script>
             (function ($) { // Begin jQuery
-                $(function () { // DOM ready
-   
+                $(function () { // DOM ready   
                     // Toggle open and close nav styles on click
                     $('#nav-toggle').click(function () {
                         $('nav ul').slideToggle();
@@ -21,9 +21,7 @@
                     });
                 }); // end DOM ready
             })(jQuery); // end jQuery
-        </script>
-
-        
+        </script>    
     </head>
 
     
@@ -55,16 +53,13 @@
                             <a href="">Contact </a>
                         </li>
                     </ul>
-
                 </nav>
-
-            </div>
-            
+            </div>            
         </header>
 
         The content of the document......
         <div class="main-content">
-            <a href="#" class="btn"><span>testing </span><i class="fa fa-ellipsis-v icon"></i> </a>
+            
 
         <div>
             <p> id/class : promo </p>
@@ -90,7 +85,37 @@
             <p> id/class : footer </p>
         </footer>
        
-       
+        <p>These are only for testing</p>
+        <!-- <a href="#" class="btn"><span>testing  </span><i class="fa fa-ellipsis-v icon"></i> </a> -->
+        
+        <div class="card product">
+          <div class="card-image">
+            <figure class="image">
+                <img src="img/product.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <table>
+              <tr>
+                <td class="card-desc" rowspan="2">
+                  <p><strong>Product</strong></p>
+                  <p>Description</p>
+                  <p>Description</p>
+                  <p>Description</p>
+                </td>
+                <td class="card-price">                
+                  <p>00<span>00</span></p>
+                </td>
+              </tr>
+              <tr>
+                <td class="was-price">
+                  test
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+       </div>
     </body>
 
 </html>
