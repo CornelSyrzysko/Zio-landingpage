@@ -6427,17 +6427,26 @@ label.panel-block {
   color: white; }
 
 .navbar-item:hover {
-  background-image: linear-gradient(#868686, #474747) !important; }
+  background-image: linear-gradient(#555555, #474747) !important; }
 
 .content-body {
   margin-top: 21px; }
 
 .dark {
   background-color: #474747; }
+  .dark :hover {
+    cursor: pointer; }
 
 .somepadding {
   padding: 0px 0px 4px 5px;
-  font-size: 1rem; }
+  font-size: 1rem;
+  float: left;
+  width: 90%; }
+
+.icon {
+  float: right;
+  margin-right: 5px;
+  padding-top: 5px; }
 
 .footer {
   color: white;

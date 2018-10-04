@@ -10,7 +10,7 @@
 }
 
 .navbar-item:hover{
-  background-image: linear-gradient(rgb(134, 134, 134), rgb(71,71,71)) !important;
+  background-image: linear-gradient($zio-gray, rgb(71,71,71)) !important;
 }
 
 .content-body{
@@ -19,12 +19,25 @@
 
 .dark{
   background-color: rgb(71, 71, 71);  
+
+  :hover{
+    cursor: pointer;
+  }
 }
 
 .somepadding{
   padding: 0px 0px 4px 5px;
-  font-size: 1rem ;  
+  font-size: 1rem ; 
+  float: left; 
+  width: 90%;
 }
+
+.icon{
+  float: right;
+  margin-right: 5px;
+  padding-top: 5px;
+}
+
 
 .footer{
   color: white;
