@@ -9,19 +9,29 @@
   color: white;
 }
 
-.navbar-item:hover:active{
-  background-image: linear-gradient(rgb(134, 134, 134), rgb(85,85,85)) !important;
+.navbar-item:hover{
+  background-image: linear-gradient(rgb(134, 134, 134), rgb(71,71,71)) !important;
 }
 
+.content-body{
+  margin-top: 21px;
+}
 
+.dark{
+  background-color: rgb(71, 71, 71);  
+}
+
+.somepadding{
+  padding: 0px 0px 4px 5px;
+  font-size: 1rem ;  
+}
 
 .footer{
   color: white;
   line-height: 3px;
   padding: 0px;
-  margin-top: 5px;
+  margin-top:20px;
   strong{
-      color: white;
-      
+    color: white;      
   }
 }
