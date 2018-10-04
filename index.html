@@ -1,121 +1,73 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Zio Food Sasolburg</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/bulma.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-
-        <script>
-            (function ($) { // Begin jQuery
-                $(function () { // DOM ready   
-                    // Toggle open and close nav styles on click
-                    $('#nav-toggle').click(function () {
-                        $('nav ul').slideToggle();
-                    });
-                    // Hamburger to X toggle
-                    $('#nav-toggle').on('click', function () {
-                        this.classList.toggle('active');
-                    });
-                }); // end DOM ready
-            })(jQuery); // end jQuery
-        </script>    
-    </head>
-
-    
-    <body>
-
-            <!--Nav Bar / Header section-->
-        <header class="nav-bar"> 
-            <div class="nav-container">
-                <div class="logo">
-                <a href="#"> <img src="https://firebasestorage.googleapis.com/v0/b/mail-bb159.appspot.com/o/static%2Flogo_mail.jpg?alt=media&token=4a7ae209-7fb8-4caf-9d81-b9c250442457"
-                        height="100px"> </a>
-                </div>
-                <nav>
-                    <div class="nav-mobile"><a id="nav-toggle" href="#"> <span> </span> </a></div>
-                    <ul class="">
-                        <li>
-                            <a href="">Home</a>
-                        </li>
-                        <li>
-                            <a href="">Promotions</a>
-                        </li>
-                        <li>
-                            <a href="">Hampers</a>
-                        </li>
-                        <li>
-                            <a href="">Blog</a>
-                        </li>
-                        <li>
-                            <a href="">Contact </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>            
-        </header>
-
-        The content of the document......
-        <div class="main-content">
-            
-
-        <div>
-            <p> id/class : promo </p>
+<html class="has-navbar-fixed-top">
+  <head>
+    <title>Playground</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">      
+    <link rel="stylesheet" href="css/main-styles.css">
+    <script src="js/main.js"></script> 
+  </head>
+  <body>
+    <div class="main-content">
+      <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <img src="img/zio_logo.jpg">
+          
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
-
-        <div>
-            <p> id/class : blog</p>
-        </div>
-
-        <div>
-            <p> id/class : kitchen </p>
-        </div>
-
-        <div>
-            <p> id/class : shop </p>
-        </div>
-
-        <div>
-            <p> id/class : label </p>
-        </div>
-
-        <footer>
-            <p> id/class : footer </p>
-        </footer>
-       
-        <p>These are only for testing</p>
-        <!-- <a href="#" class="btn"><span>testing  </span><i class="fa fa-ellipsis-v icon"></i> </a> -->
-        
-        <div class="card product">
-          <div class="card-image">
-            <figure class="image">
-                <img src="img/product.jpg" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content">
-            <table>
-              <tr>
-                <td class="card-desc" rowspan="2">
-                  <p><strong>Product</strong></p>
-                  <p>Description</p>
-                  <p>Description</p>
-                  <p>Description</p>
-                </td>
-                <td class="card-price">                
-                  <p>00<span>00</span></p>
-                </td>
-              </tr>
-              <tr>
-                <td class="was-price">
-                  test
-                </td>
-              </tr>
-            </table>
+      
+        <div class="navbar-menu" id="navbarBasicExample">
+          <div class="navbar-start">
+            <a class="navbar-item ">
+              HOME
+            </a>        
+            <a class="navbar-item">
+              PROMOTIONS
+            </a>        
+            <a class="navbar-item">
+              SERVICE
+            </a>  
+            <!-- <a class="navbar-item">
+              WEB APP
+            </a>   -->
           </div>
         </div>
-       </div>
-    </body>
+      </nav>
 
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi tempore perspiciatis provident rem commodi natus totam nulla iure beatae enim!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi tempore perspiciatis provident rem commodi natus totam nulla iure beatae enim!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi tempore perspiciatis provident rem commodi natus totam nulla iure beatae enim!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi tempore perspiciatis provident rem commodi natus totam nulla iure beatae enim!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi tempore perspiciatis provident rem commodi natus totam nulla iure beatae enim!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi tempore perspiciatis provident rem commodi natus totam nulla iure beatae enim!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi tempore perspiciatis provident rem commodi natus totam nulla iure beatae enim!</p>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <div class="columns">
+          <div class="column">
+            <p><strong>Contact</strong></p>
+            <p>016 976 2782</p>
+          </div>
+          <div class="column">
+            <p><strong>Address</strong></p>
+            <p>1 Fraser str. Sasolburg</p>
+          </div>
+          <div class="column">
+            <p><strong>Email</strong></p>
+            <p>zio@zio.co.za</p>
+          </div>  
+          <div class="column">
+            <p><strong>Trading Hours</strong></p>
+            <p>Mon-Sat: 07h00-21h00</p>
+            <p>Son/Pub Holi: 08h00-18h00</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+$zio-gray: rgb(85, 85, 85);
+
+$navbar-item-color: white;
+$navbar-background-color: $zio-gray;
+$navbar-item-hover-color: white;
+$navbar-item-hover-background-color: rgb(122, 122, 122);
+
+$footer-background-color: $zio-gray;
+
+@import "../../node_modules/bulma/bulma.sass";

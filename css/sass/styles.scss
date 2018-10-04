@@ -1,0 +1,27 @@
+@import "bulma.scss";
+
+.main-content{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.burger{
+  color: white;
+}
+
+.navbar-item:hover:active{
+  background-image: linear-gradient(rgb(134, 134, 134), rgb(85,85,85)) !important;
+}
+
+
+
+.footer{
+  color: white;
+  line-height: 3px;
+  padding: 0px;
+  margin-top: 5px;
+  strong{
+      color: white;
+      
+  }
+}
