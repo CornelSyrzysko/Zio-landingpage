@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
           $target.classList.toggle('is-active');
         });
       });
+<<<<<<< HEAD
     }
   
 });
@@ -42,3 +43,7 @@ var hamper = {
     }
   }
 };
+=======
+    }  
+});
+>>>>>>> 9719844196a2ecc579990056546ad694c738d6ec

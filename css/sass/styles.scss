@@ -39,6 +39,20 @@
   padding-top: 5px;
 }
 
+.fixed-header{
+  position: fixed;
+  top: 71px;
+  left: 0;
+  width: 100%; 
+}
+
+.sticky-h{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 71px;
+  z-index: 8;
+}
+
 
 .footer{
   color: white;
