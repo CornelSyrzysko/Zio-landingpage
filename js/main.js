@@ -19,3 +19,26 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
 });
+
+//Hamper modal
+
+var hamper = {
+  hamperone: {
+    open: function () {
+      document.getElementById('hamperone').classList.add('is-active');
+    },
+    close: function () {
+      document.getElementById('hamperone').classList.remove('is-active');
+
+    }
+  },
+
+  hampertwo: {
+    open: function () {
+      document.getElementById('hampertwo').classList.add('is-active');
+    },
+    close: function () {
+      document.getElementById('hampertwo').classList.remove('is-active');
+    }
+  }
+};
