@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html class="">
+<html class="has-navbar-fixed-top">
   <head>
     <title>Zio Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">        
     <link rel="stylesheet" href="css/main-styles.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/main.js"></script> 
+
+    
   </head>
   <body>
     <div class="main-content">
-      <nav class="navbar " role="navigation" aria-label="main navigation">
+      <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <img src="img/zio_logo.jpg">
           
@@ -45,7 +48,7 @@
 
         <!-- Promotions -->
         <div class="promos">
-          <section class="hero dark ">          
+          <section id="prom" class="hero dark sticky-h">          
             <div class="hero-body is-paddingless">    
               <span><h1 class="title is-4 has-text-left has-text-white somepadding">Promotions</h1></span>
               <span class="icon has-text-white">
@@ -63,7 +66,7 @@
                 
         <!-- What's Cooking -->
         <div>          
-          <section class="hero dark">
+          <section is="blog_h" class="hero dark sticky-h">
             <div class="hero-body is-paddingless">
               <span><h1 class="title is-4 has-text-left has-text-white somepadding">What's Cooking?</h1></span>
                 <span class="icon has-text-white">
@@ -146,5 +149,19 @@
         </div>
       </footer>
     </div>
+
+    <script>
+      $(window).scroll(function(){
+        console.log($(window).scrollTop());
+        if ($(window).scrollTop() >= 199) {
+            $('promo').addClass('fixed-header');
+            console.log("sticky added")
+        }
+        else {
+            $('promo').removeClass('fixed-header');
+            
+        }
+      });
+    </script>
   </body>
 </html>

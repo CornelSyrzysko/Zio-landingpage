@@ -3968,7 +3968,7 @@ a.dropdown-item {
   padding: 20px; }
 
 .navbar {
-  background-color: #555555;
+  background-color: rgba(85, 85, 85, 0.219);
   min-height: 3.25rem;
   position: relative;
   z-index: 30; }
@@ -4514,7 +4514,7 @@ a.navbar-item,
   .navbar-link::after {
     display: none; }
   .navbar-menu {
-    background-color: #555555;
+    background-color: rgba(85, 85, 85, 0.219);
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0; }
     .navbar-menu.is-active {
@@ -6446,6 +6446,18 @@ label.panel-block {
   float: right;
   margin-right: 5px;
   padding-top: 5px; }
+
+.fixed-header {
+  position: fixed;
+  top: 71px;
+  left: 0;
+  width: 100%; }
+
+.sticky-h {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 71px;
+  z-index: 8; }
 
 .footer {
   color: white;
