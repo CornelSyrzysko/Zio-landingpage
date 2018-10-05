@@ -1,9 +1,10 @@
 @import "bulma.scss";
 
 .main-content{
-  width: 100%;
+  // width: 100%;
   margin: 0 auto;
 }
+
 
 .burger{
   color: white;
@@ -48,3 +49,13 @@
     color: white;      
   }
 }
+
+.columns{
+  width: 100%;
+}
+
+// * {
+//   background: #000 !important;
+//   color: #0f0 !important;
+//   outline: solid #f00 1px !important;
+// }

@@ -6420,7 +6420,6 @@ label.panel-block {
   padding: 3rem 1.5rem 6rem; }
 
 .main-content {
-  width: 100%;
   margin: 0 auto; }
 
 .burger {
@@ -6455,3 +6454,6 @@ label.panel-block {
   margin-top: 20px; }
   .footer strong {
     color: white; }
+
+.columns {
+  width: 100%; }
