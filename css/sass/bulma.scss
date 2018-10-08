@@ -1,9 +1,10 @@
 @charset "utf-8";
 
 $zio-gray: rgb(85, 85, 85);
+$zio-gray-dark: rgb(50, 50, 50); 
 
 $navbar-item-color: white;
-$navbar-background-color:rgba(85, 85, 85, 0.219);
+$navbar-background-color: $zio-gray; 
 $navbar-item-hover-color: white;
 $navbar-item-hover-background-color: rgb(122, 122, 122);
 
