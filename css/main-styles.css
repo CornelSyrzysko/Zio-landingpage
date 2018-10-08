@@ -6496,5 +6496,9 @@ nav img {
 .columns {
   width: 100%; }
 
+<<<<<<< HEAD
 .column {
   width: 100%; }
+=======
+.border-2{border:2px solid black!important;}
+>>>>>>> b9b603b27904f1a5f69d748cef47500fe02b68a7
