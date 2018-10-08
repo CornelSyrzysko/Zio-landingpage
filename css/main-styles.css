@@ -3968,7 +3968,7 @@ a.dropdown-item {
   padding: 20px; }
 
 .navbar {
-  background-color: rgba(85, 85, 85, 0.219);
+  background-color: #555555;
   min-height: 3.25rem;
   position: relative;
   z-index: 30; }
@@ -4514,7 +4514,7 @@ a.navbar-item,
   .navbar-link::after {
     display: none; }
   .navbar-menu {
-    background-color: rgba(85, 85, 85, 0.219);
+    background-color: #555555;
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0; }
     .navbar-menu.is-active {
@@ -6420,19 +6420,50 @@ label.panel-block {
   padding: 3rem 1.5rem 6rem; }
 
 .main-content {
+  width: 80%;
   margin: 0 auto; }
 
+.navbar {
+  width: 80% !important;
+  margin: auto; }
+
+nav img {
+  max-height: 70px; }
+
 .burger {
-  color: white; }
+  color: white;
+  min-height: 71px; }
 
 .navbar-item:hover {
-  background-image: linear-gradient(#555555, #474747) !important; }
+  background-image: linear-gradient(#555555, #323232) !important; }
+
+.bottom-to-top {
+  border-width: 3px;
+  border-style: solid;
+  -webkit-border-image: -webkit-gradient(linear, 0 100%, 0 0, from(#323232), to(#555555)) 1 10%;
+  -webkit-border-image: -webkit-linear-gradient(bottom, #323232, #555555) 1 10%;
+  -moz-border-image: -moz-linear-gradient(bottom, #323232, #555555) 1 10%;
+  -o-border-image: -o-linear-gradient(bottom, #323232, #555555) 1 10%;
+  border-image: linear-gradient(to top, #323232, #555555) 1 10%;
+  border-bottom: 0px;
+  border-top: 0px; }
+
+.no-border {
+  border-width: 0px; }
 
 .content-body {
-  margin-top: 21px; }
+  margin-top: 18px; }
+
+.parallax {
+  background-image: url("img/inf_1340x350.png");
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .dark {
-  background-color: #474747; }
+  background-color: #323232; }
   .dark :hover {
     cursor: pointer; }
 
@@ -6447,23 +6478,18 @@ label.panel-block {
   margin-right: 5px;
   padding-top: 5px; }
 
-.fixed-header {
-  position: fixed;
-  top: 71px;
-  left: 0;
-  width: 100%; }
-
 .sticky-h {
   position: -webkit-sticky;
   position: sticky;
-  top: 71px;
+  top: 70px;
   z-index: 8; }
 
 .footer {
   color: white;
   line-height: 3px;
   padding: 0px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  width: 100%; }
   .footer strong {
     color: white; }
 

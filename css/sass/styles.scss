@@ -1,25 +1,66 @@
 @import "bulma.scss";
 
 .main-content{
-  // width: 100%;
+  width: 80%;
   margin: 0 auto;
 }
 
+.navbar{
+  width: 80% !important;
+  margin: auto;
+}
+
+nav img{
+  max-height: 70px;
+}
 
 .burger{
   color: white;
+  min-height: 71px;
 }
 
 .navbar-item:hover{
-  background-image: linear-gradient($zio-gray, rgb(71,71,71)) !important;
+  background-image: linear-gradient($zio-gray, $zio-gray-dark) !important;
+}
+
+.bottom-to-top {
+  border-width: 3px;
+  border-style: solid;
+  -webkit-border-image: 
+    -webkit-gradient(linear, 0 100%, 0 0, from($zio-gray-dark), to($zio-gray)) 1 10%;
+  -webkit-border-image: 
+    -webkit-linear-gradient(bottom, $zio-gray-dark, $zio-gray) 1 10%;
+  -moz-border-image:
+    -moz-linear-gradient(bottom, $zio-gray-dark, $zio-gray) 1 10%;  
+  -o-border-image:
+    -o-linear-gradient(bottom, $zio-gray-dark, $zio-gray) 1 10%;
+  border-image:
+    linear-gradient(to top, $zio-gray-dark, $zio-gray) 1 10%;
+
+  border-bottom: 0px;
+  border-top: 0px;
+}
+
+.no-border{
+  border-width: 0px; 
 }
 
 .content-body{
-  margin-top: 21px;
+  margin-top: 18px;
+}
+
+.parallax{
+  background-image: url("img/inf_1340x350.png");
+  min-height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .dark{
-  background-color: rgb(71, 71, 71);  
+  background-color: $zio-gray-dark; 
 
   :hover{
     cursor: pointer;
@@ -39,17 +80,10 @@
   padding-top: 5px;
 }
 
-.fixed-header{
-  position: fixed;
-  top: 71px;
-  left: 0;
-  width: 100%; 
-}
-
 .sticky-h{
   position: -webkit-sticky;
   position: sticky;
-  top: 71px;
+  top: 70px;
   z-index: 8;
 }
 
@@ -62,6 +96,7 @@
   strong{
     color: white;      
   }
+  width: 100%;
 }
 
 .columns{

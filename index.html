@@ -25,16 +25,16 @@
       
         <div class="navbar-menu" id="navbarBasicExample">
           <div class="navbar-start">
-            <a class="navbar-item ">
+            <a class="navbar-item bottom-to-top">
               HOME
             </a>        
-            <a class="navbar-item">
+            <a class="navbar-item bottom-to-top no-border">
               PROMOTIONS
             </a>        
-            <a class="navbar-item">
+            <a class="navbar-item bottom-to-top">
               SERVICE
             </a>  
-            <!-- <a class="navbar-item">
+            <!-- <a class="navbar-item bottom-to-top">
               WEB APP
             </a>   -->
           </div>
@@ -42,8 +42,8 @@
       </nav>
 
       <div class="content-body has-text-centered">
-        <section class="paralax campaign">
-          <img src="img/inf_1340x350.png" class="image is-720x240">
+        <section class="parallax">
+          <!-- <img src="" class="image is-720x240"> -->
         </section>
 
         <!-- Promotions -->
@@ -245,19 +245,5 @@
       <!--Modals-->
 
     </div>
-
-    <script>
-      $(window).scroll(function(){
-        console.log($(window).scrollTop());
-        if ($(window).scrollTop() >= 199) {
-            $('promo').addClass('fixed-header');
-            console.log("sticky added")
-        }
-        else {
-            $('promo').removeClass('fixed-header');
-            
-        }
-      });
-    </script>
   </body>
 </html>
