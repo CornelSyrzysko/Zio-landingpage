@@ -6470,4 +6470,5 @@ label.panel-block {
 .columns {
   width: 100%; }
 
-.border-2{border:2px solid black!important;}
+.border-2 {
+  border: 2px solid black !important; }
