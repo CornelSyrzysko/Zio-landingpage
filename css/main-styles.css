@@ -6419,6 +6419,14 @@ label.panel-block {
   background-color: #555555;
   padding: 3rem 1.5rem 6rem; }
 
+html {
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
 .main-content {
   width: 80%;
   margin: 0 auto; }
@@ -6455,12 +6463,13 @@ nav img {
   margin-top: 18px; }
 
 .parallax {
-  background-image: url("img/inf_1340x350.png");
-  min-height: 100%;
+  background-color: blue;
+  background-image: url("../img/inf_250x250.png");
+  min-height: 250px;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center 70px;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: inherit; }
 
 .dark {
   background-color: #323232; }
@@ -6496,9 +6505,5 @@ nav img {
 .columns {
   width: 100%; }
 
-<<<<<<< HEAD
 .column {
   width: 100%; }
-=======
-.border-2{border:2px solid black!important;}
->>>>>>> b9b603b27904f1a5f69d748cef47500fe02b68a7

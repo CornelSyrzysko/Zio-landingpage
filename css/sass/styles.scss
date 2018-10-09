@@ -1,5 +1,14 @@
 @import "bulma.scss";
 
+html{
+  height: 100%;
+  overflow: hidden;
+}
+
+body{
+  margin: 0;
+  padding: 0; 
+}
 .main-content{
   width: 80%;
   margin: 0 auto;
@@ -50,13 +59,15 @@ nav img{
 }
 
 .parallax{
-  background-image: url("img/inf_1340x350.png");
-  min-height: 100%;
+  background-color: blue;
+  background-image: url('../img/inf_250x250.png');
+  min-height: 250px;
 
   background-attachment: fixed;
-  background-position: center;
+  background-position: center 70px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: inherit;
+  
 }
 
 .dark{
@@ -105,7 +116,7 @@ nav img{
 .column{
   width: 100%;
 }
-
+ 
 // * {
 //   background: #000 !important;
 //   color: #0f0 !important;
