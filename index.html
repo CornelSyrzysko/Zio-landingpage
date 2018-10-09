@@ -6,23 +6,19 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">        
     <link rel="stylesheet" href="css/main-styles.css">
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/main.js"></script> 
-
-    
+    <script src="js/main.js"></script>     
   </head>
   <body>
-    <div class="main-content ">
-      <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="main-content ">  <!-- BEGIN main-content -->     
+      <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">  <!-- BEGIN  navbar -->
         <div class="navbar-brand">
-            <img src="img/zio_logo.jpg">
-          
+          <img src="img/zio_logo.jpg">          
           <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
-        </div>
-      
+        </div>      
         <div class="navbar-menu" id="navbarBasicExample">
           <div class="navbar-start">
             <a class="navbar-item bottom-to-top">
@@ -39,19 +35,18 @@
             </a>   -->
           </div>
         </div>
-      </nav>
-
-      <div class="content-body has-text-centered">
+      </nav>  <!-- END  navbar -->
+      
+      <div class="content-body has-text-centered">  <!-- BEGIN content-body -->
         <div class="parallax">
           <!-- <img src="img/inf_1340x350.png" class="image is-720x240"> -->
         </div>
-
-        <!-- Promotions -->
-        <div class="promos">
+        
+        <div class="promos">  <!-- BEGIN  Promotions -->
           <section id="prom" class="hero dark sticky-h">          
             <div class="hero-body is-paddingless">    
               <span><h1 class="title is-4 has-text-left has-text-white somepadding">Promotions</h1></span>
-              <span class="icon has-text-white">
+              <span class="icon has-text-white is-pulled-right">
                 <i class="fa fa-angle-down fa-2x"></i>
               </span>  
             </div>
@@ -62,24 +57,22 @@
           <p>Cras feugiat vel sem nec luctus. Morbi rhoncus tortor ligula, et vehicula eros lacinia id. Nunc accumsan in elit id scelerisque. Nullam bibendum vitae sem non ultrices. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin varius efficitur pellentesque. Praesent ex mauris, scelerisque ut arcu nec, rutrum egestas sem. Nullam sed tincidunt ligula, eget ullamcorper purus. Pellentesque dapibus massa bibendum, facilisis purus vitae, egestas purus.</p>
           <p>Phasellus sed sem mollis, rhoncus nisl id, malesuada tortor. Sed consectetur urna nec quam porttitor, sit amet posuere nisi ornare. In hac habitasse platea dictumst. Etiam ut mi dignissim, vehicula sem a, sagittis nibh. In hac habitasse platea dictumst. Sed imperdiet, tortor sed consequat consequat, eros sem lobortis risus, nec ultricies urna arcu vel libero. Pellentesque rhoncus convallis sodales.</p>
           <p>Praesent luctus in erat ut malesuada. Suspendisse ac semper elit, vitae volutpat dolor. Curabitur venenatis risus cursus libero pharetra lobortis. Aenean vulputate quis mauris sed sollicitudin. Fusce a sodales ipsum, vitae sagittis enim. Sed vehicula congue nisi eget vulputate. Etiam suscipit augue ac arcu suscipit, nec blandit ex sagittis. Curabitur suscipit leo id lectus ultrices, a consectetur quam pharetra. Mauris lobortis risus et odio cursus cursus.</p>
-        </div>
-                
-        <!-- What's Cooking -->
-        <div>          
+        </div>  <!-- END  Promotions -->                
+       
+        <div>  <!-- BEGIN  What's Cooking -->   
           <section is="blog_h" class="hero dark sticky-h">
             <div class="hero-body is-paddingless">
               <span><h1 class="title is-4 has-text-left has-text-white somepadding">What's Cooking?</h1></span>
-                <span class="icon has-text-white">
+                <span class="icon has-text-white is-pulled-right">
                   <i class="fa fa-angle-down fa-2x"></i>
                 </span>  
 
             </div>
           </section>
-          <!--Blog Section-->
-          <!---Cards-->
           
+          <!-- Blog Cards -->          
           <div class="section card">
-          <div class="container">
+            <div class="container">
               <div class="card-content">
                 <div class="content">
                   <article class="media">
@@ -114,27 +107,23 @@
                               <i class="fa fa-heart" aria-hidden="true"></i>
                             </span>
                           </a>
-                        </div>
-         
+                        </div>         
                       </nav>
-
                     </div>
                   </article>
                 </div>
               </div>
-           </div> 
+            </div> 
           </div>
-        </div>
-      
-
-        <!-- Hamper Section -->
-        <div>
+        </div>  <!-- END  What's Cooking -->      
+        
+        <div> <!-- BEGIN  Hamper Section -->
           <section class="hero dark sticky-h">
             <div class="hero-body is-paddingless">
               <span>
                 <h1 class="title is-4 has-text-left has-text-white somepadding">Grocery Hampers</h1>
               </span>
-              <span class="icon has-text-white">
+              <span class="icon has-text-white is-pulled-right">
                 <i class="fa fa-angle-down fa-2x"></i>
               </span>
             </div>
@@ -142,140 +131,127 @@
           <!--Hamper One-->
           <div class="section level">
             <div class="container hamperleft level-item">
-                    <div class="tile is-ancestor has-text-centered">
-                        
-                          <!-- Header-->
-                          <div class="tile is-parent is-5 ">
-                          <div class="card">
-                            <div class="card-image">
-                              <figure class="image is-square">
-                                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                              </figure>
-                            </div>
-                            <div class="card border-2">
-                              <div class="card-content ">
-                                <p class="title">
-                                  <strong> Hamper One</strong>
-                                </p>
-                                <p>
-                                  Chicken <br>
-                                  Meat <br>
-                                  More Mreat <br>
-                                  Fish <br>
-                                  Eggs <br>
-                                  Fish <br>
-                                </p>
-                              </div>
-                              <footer class="card-footer has-background-black">
-                                <p class="card-footer-item title has-text-white ">
-                                  <span>
-                                    569 <sup>99 </sup>
-                                  </span>
-                                </p>
-                              </footer>
-                            </div>
-                          </div>
-                          </div>
-
-                          <!-- Hamper two -->
-                        <div class="tile is-parent is-5"> 
-                          <div class="card">
-                            <div class="card-image">
-                              <figure class="image is-square">
-                                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                              </figure>
-                            </div>
-                            <div class="card border-2">
-                              <div class="card-content ">
-                                <p class="title">
-                                  <strong> Hamper Two</strong>
-                                </p>
-                                <p>
-                                  Chicken <br>
-                                  Meat <br>
-                                  More Mreat <br>
-                                  Fish <br>
-                                  Eggs <br>
-                                  Fish <br>
-                                </p>
-                              </div>
-                              <footer class="card-footer has-background-black">
-                                <p class="card-footer-item title has-text-white ">
-                                  <span>
-                                    569 <sup>99 </sup>
-                                  </span>
-                                </p>
-                              </footer>
-                            </div>
-                          </div>
-
-                        </div>
-
+              <div class="tile is-ancestor has-text-centered">
+                  
+                <!-- Header-->
+                <div class="tile is-parent is-5 ">
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-square">
+                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="card border-2">
+                      <div class="card-content ">
+                        <p class="title">
+                          <strong> Hamper One</strong>
+                        </p>
+                        <p>
+                          Chicken <br>
+                          Meat <br>
+                          More Mreat <br>
+                          Fish <br>
+                          Eggs <br>
+                          Fish <br>
+                        </p>
+                      </div>
+                      <footer class="card-footer has-background-black">
+                        <p class="card-footer-item title has-text-white ">
+                          <span>
+                            569 <sup>99 </sup>
+                          </span>
+                        </p>
+                      </footer>
+                    </div>
                   </div>
-
-          </div>
-          </div>
-          </div>
-
-          <!--The Other Services Banner-->
-
-<div class="section">
-<nav class="level">
-  <div class="level-item">
-    <div class="service cell">
-      <a href="#"><span class=""></span></a>
-
-    </div>
-  </div>
-
-  <div class="level-item">
-    <div class="dstv">
-      <a href="#"><span class=""></span></a>
-      </div>
-  </div>
-
-  <div class="level-item">
-    <div class="topup">
-      <a href="#"><span class=""></span></a>
-       </div>
-  </div>
-
-  <div class="level-item">
-    <div class="tickets">
-      <a href="#"><span class=""></span></a>
-     </div>
-  </div>
-
-</nav>
-
-</div>
-
-          <!--Footer section-->
-
-      <footer class="footer">
-        <div class="content has-text-centered">
-          <div class="columns ">
-            <div class="column">
-              <p><strong>Contact</strong></p>
-              <p>016 976 2782</p>
-            </div>
-            <div class="column">
-              <p><strong>Address</strong></p>
-              <p>1 Fraser str. Sasolburg</p>
-            </div>
-            <div class="column">
-              <p><strong>Email</strong></p>
-              <p>zio@zio.co.za</p>
-            </div>  
-            <div class="column">
-              <p><strong>Trading Hours</strong></p>
-              <p>Mon-Sat: 07h00-21h00</p>
-              <p>Son/Pub Holi: 08h00-18h00</p>
+                </div>
+                <!-- Hamper two -->
+                <div class="tile is-parent is-5"> 
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-square">
+                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="card border-2">
+                      <div class="card-content ">
+                        <p class="title">
+                          <strong> Hamper Two</strong>
+                        </p>
+                        <p>
+                          Chicken <br>
+                          Meat <br>
+                          More Mreat <br>
+                          Fish <br>
+                          Eggs <br>
+                          Fish <br>
+                        </p>
+                      </div>
+                      <footer class="card-footer has-background-black">
+                        <p class="card-footer-item title has-text-white ">
+                          <span>
+                            569 <sup>99 </sup>
+                          </span>
+                        </p>
+                      </footer>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </footer>
+        </div> <!-- END  Hamper Section -->
+      </div> <!-- END content-body -->
+            
+      <div class="section">  <!--BEGIN  The Other Services Banner-->
+        <nav class="level">
+          <div class="level-item">
+            <div class="service cell">
+              <a href="#"><span class=""></span></a>
+            </div>
+          </div>
 
-    </div>
+          <div class="level-item">
+            <div class="dstv">
+              <a href="#"><span class=""></span></a>
+              </div>
+          </div>
+
+          <div class="level-item">
+            <div class="topup">
+              <a href="#"><span class=""></span></a>
+              </div>
+          </div>
+
+          <div class="level-item">
+            <div class="tickets">
+              <a href="#"><span class=""></span></a>
+            </div>
+          </div>
+        </nav>
+      </div>  <!-- END  service banner -->
+            
+      <footer class="footer content has-text-centered">  <!--BEGIN  Footer section-->      
+        <div class="columns">
+          <div class="column">
+            <p><strong>Contact</strong></p>
+            <p>016 976 2782</p>
+          </div>
+          <div class="column">
+            <p><strong>Address</strong></p>
+            <p>1 Fraser str. Sasolburg</p>
+          </div>
+          <div class="column">
+            <p><strong>Email</strong></p>
+            <p>zio@zio.co.za</p>
+          </div>  
+          <div class="column">
+            <p><strong>Trading Hours</strong></p>
+            <p>Mon-Sat: 07h00-21h00</p>
+            <p>Son/Pub Holi: 08h00-18h00</p>
+          </div>
+        </div>        
+      </footer>  <!--END  Footer section-->
+    </div> <!-- END  main-content -->
   </body>
 </html>
