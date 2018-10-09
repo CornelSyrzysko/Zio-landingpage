@@ -6505,5 +6505,85 @@ nav img {
 .columns {
   width: 100%; }
 
-.column {
-  width: 100%; }
+.border-2 {
+  border: 2px solid black !important; }
+
+.hamperleft {
+  padding-left: 2% !important;
+  margin-left: 12% !important; }
+
+.cell {
+  width: 230px;
+  height: 100px;
+  float: none;
+  position: relative;
+  margin: 0 auto;
+  transition: background 0.2s ease;
+  overflow: visible;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/mail-bb159.appspot.com/o/static%2Fservices-cell_fc.jpg?alt=media&token=76e0c9b6-f2ef-44f8-98ba-0abe51420a4d"); }
+
+.dstv {
+  width: 230px;
+  height: 100px;
+  float: none;
+  position: relative;
+  margin: 0 auto;
+  transition: background 0.2s ease;
+  overflow: visible;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/mail-bb159.appspot.com/o/static%2Fservices-dstv_fc.jpg?alt=media&token=229345a3-279a-49a9-93de-5ce50d3d7cc6"); }
+
+.topup {
+  width: 230px;
+  height: 100px;
+  float: none;
+  position: relative;
+  margin: 0 auto;
+  transition: background 0.2s ease;
+  overflow: visible;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/mail-bb159.appspot.com/o/static%2Fservices-elec_fc.jpg?alt=media&token=610178c7-c079-4932-a121-e20f476106cf"); }
+
+.tickets {
+  width: 230px;
+  height: 100px;
+  float: none;
+  position: relative;
+  margin: 0 auto;
+  transition: background 0.2s ease;
+  overflow: visible;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/mail-bb159.appspot.com/o/static%2Fservices-tpd_fc.jpg?alt=media&token=b910a54c-df62-4198-b8a8-861804e3f313"); }
+
+.cell:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%); }
+
+.dstv:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%); }
+
+.topup:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%); }
+
+.tickets:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%); }
