@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+
+<head>
+    <title>Zio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main-styles.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="main-content ">
+        <!-- BEGIN main-content -->
+        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+            <!-- BEGIN  navbar -->
+            <div class="navbar-brand">
+                <img src="img/zio_logo.jpg">
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="navbarBasicExample">
+                <div class="navbar-start">
+                    <a class="navbar-item bottom-to-top">
+                        HOME
+                    </a>
+                    <a class="navbar-item bottom-to-top no-border">
+                        PROMOTIONS
+                    </a>
+                    <a class="navbar-item bottom-to-top">
+                        SERVICE
+                    </a>
+                    <!-- <a class="navbar-item bottom-to-top">
+              WEB APP
+            </a>   -->
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="content-body has-text-centered">
+            <!-- BEGIN content-body -->
+            <div class="parallax">
+                <!-- <img src="img/inf_1340x350.png" class="image is-720x240"> -->
+            </div>
+
+            <div>
+                <!-- BEGIN  What's Cooking -->
+                <section is="blog_h" class="hero dark sticky-h">
+                    <div class="hero-body is-paddingless">
+                        <span>
+                            <h1 class="title is-4 has-text-left has-text-white somepadding">What's Cooking?</h1>
+                        </span>
+                        <span class="icon has-text-white is-pulled-right">
+                            <i class="fa fa-angle-down fa-2x"></i>
+                        </span>
+                    </div>
+                </section>
+                <!--Blog Section-->
+                <!---Cards-->
+                <div class="section">
+
+                    <section class="block is-block-mobile">
+                        <div class="left-p">
+                            <figure>
+                                <img src="https://images.pexels.com/photos/76093/pexels-photo-76093.jpeg?cs=srgb&dl=cooking-dinner-food-76093.jpg&fm=jpg">
+                            </figure>
+                    
+                        </div>
+                    
+                <div class="right-p">
+                            <div class="tab tabs is-toggle is-centered ">
+                                
+                                <ul>
+                                    <li class="is-active"> <a onclick="toggleDiv(1)"> Description </a></li>
+                                    <li> <a onclick="toggleDiv(2)"> Ingredients </a></li>
+                                    <li> <a onclick="toggleDiv(3)"> Preparation </a></li>
+                                </ul>
+
+                                                    
+                               <!-- <a href="#" class="button"> Description </a>
+                            <a href="#" class="button"> incred </a>
+                            <a href="#" class="button"> meth </a>  -->
+
+                            </div>
+
+                    <div class="lower">
+                        <section class="messagebox">
+                            <div id="right-content">
+    
+                                <div class="messagebody" id="div1">
+                                    <p class="subtitle is-size-6"> <strong> Hearty Treat </strong> <br>
+                                        This perfect dish goes well with any rich taste wine, preferably Merlot as the oak taste adds an extra
+                                        layer. Juicy
+                                        and Tender beef served stir fry and brocolli is perfect for those indoor set ups. Easy to make follow the
+                                        link
+                                        below
+                                    </p>
+    
+                                </div>
+                                <div class="messagebody" id="div2">
+                                    <p class="subtitle is-size-6"> <strong> Ingredients </strong> <br>
+                                        Lorem ipsu <br>
+                                        Lorem ipsum dolor sit amet.<br>
+                                        Lorem, ipsum dolor.<br>
+                                        Lorem, ipsum dolor.
+                                    </p>
+                                </div>
+                                
+                                <div class="messagebody" id="div3">
+                                    <p class="subtitle is-size-6"> <strong> Prep </strong> <br>
+                                        Lorem ipsu <br>
+                                        Lorem ipsum dolor sit amet.<br>
+                                        Lorem, ipsum dolor.<br>
+                                        Lorem, ipsum dolor.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                </div>
+                    </section>
+
+                </div>
+            </div> <!-- END  What's Cooking -->
+
+        </div> <!-- END content-body -->
+
+        <div class="section">
+            <!--BEGIN  The Other Services Banner-->
+            <nav class="level">
+                <div class="level-item">
+                    <div class="service cell">
+                        <a href="#"><span class=""></span></a>
+                    </div>
+                </div>
+
+                <div class="level-item">
+                    <div class="dstv">
+                        <a href="#"><span class=""></span></a>
+                    </div>
+                </div>
+
+                <div class="level-item">
+                    <div class="topup">
+                        <a href="#"><span class=""></span></a>
+                    </div>
+                </div>
+
+                <div class="level-item">
+                    <div class="tickets">
+                        <a href="#"><span class=""></span></a>
+                    </div>
+                </div>
+            </nav>
+        </div> <!-- END  service banner -->
+
+        <footer class="footer content has-text-centered">
+            <!--BEGIN  Footer section-->
+            <div class="columns">
+                <div class="column">
+                    <p><strong>Contact</strong></p>
+                    <p>016 976 2782</p>
+                </div>
+                <div class="column">
+                    <p><strong>Address</strong></p>
+                    <p>1 Fraser str. Sasolburg</p>
+                </div>
+                <div class="column">
+                    <p><strong>Email</strong></p>
+                    <p>zio@zio.co.za</p>
+                </div>
+                <div class="column">
+                    <p><strong>Trading Hours</strong></p>
+                    <p>Mon-Sat: 07h00-21h00</p>
+                    <p>Son/Pub Holi: 08h00-18h00</p>
+                </div>
+            </div>
+        </footer>
+        <!--END  Footer section-->
+    </div> <!-- END  main-content -->
+
+    <!--For Tabs -->
+
+  
+</body>
+
+</html>

@@ -16,34 +16,24 @@ document.addEventListener('DOMContentLoaded', () => {
           $target.classList.toggle('is-active');
         });
       });
-<<<<<<< HEAD
-    }
-  
-});
-
-//Hamper modal
-
-var hamper = {
-  hamperone: {
-    open: function () {
-      document.getElementById('hamperone').classList.add('is-active');
-    },
-    close: function () {
-      document.getElementById('hamperone').classList.remove('is-active');
-
-    }
-  },
-
-  hampertwo: {
-    open: function () {
-      document.getElementById('hampertwo').classList.add('is-active');
-    },
-    close: function () {
-      document.getElementById('hampertwo').classList.remove('is-active');
-    }
-  }
-};
-=======
     }  
 });
->>>>>>> 9719844196a2ecc579990056546ad694c738d6ec
+
+function toggleDiv(divNum) {
+
+  $("#close").hide();
+  $(".messagebody").animate({ right: '-800' }, 350);
+  if ($("#div" + divNum)) {
+    
+    $("#div" + divNum).animate({ right: '160' }, 350, function () { $("#close").show(); });
+   
+  }
+  
+};
+
+$(document).ready(function () {
+  $("#close").on("click", function () {
+    $(".messagebody").animate({ right: '-800' }, 350);
+    $(this).hide()
+  })
+});

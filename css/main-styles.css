@@ -6419,6 +6419,14 @@ label.panel-block {
   background-color: #555555;
   padding: 3rem 1.5rem 6rem; }
 
+html {
+  height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
 .main-content {
   width: 80%;
   margin: 0 auto; }
@@ -6455,12 +6463,13 @@ nav img {
   margin-top: 18px; }
 
 .parallax {
-  background-image: url("img/inf_1340x350.png");
-  min-height: 100%;
+  background-color: blue;
+  background-image: url("../img/inf_1340x350.png");
+  min-height: 350px;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center 70px;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: inherit; }
 
 .dark {
   background-color: #323232; }
@@ -6474,7 +6483,6 @@ nav img {
   width: 90%; }
 
 .icon {
-  float: right;
   margin-right: 5px;
   padding-top: 5px; }
 
@@ -6483,6 +6491,44 @@ nav img {
   position: sticky;
   top: 70px;
   z-index: 8; }
+
+/* promo cards */
+.cards {
+  width: 20%;
+  height: 25%; }
+
+.card-content {
+  padding: 0;
+  padding-right: 0px; }
+
+table {
+  width: 100%;
+  height: 30px;
+  border: 2px solid black; }
+
+.card-desc {
+  width: 66%;
+  text-align: right;
+  font-size: 0.8rem;
+  padding-right: 2px;
+  vertical-align: middle;
+  line-height: 1; }
+
+.card-price {
+  width: 34%;
+  background-color: black;
+  color: white;
+  text-align: center; }
+  .card-price p {
+    font-size: 2rem; }
+  .card-price span {
+    font-size: 1rem; }
+
+.was-price {
+  background-color: black;
+  color: #838383;
+  text-align: right;
+  font-weight: 100; }
 
 .footer {
   color: white;
@@ -6582,7 +6628,6 @@ nav img {
 .block {
   display: flex;
   width: 100%;
-  height: 500px;
   text-align: center; }
 
 .left-p {
@@ -6591,22 +6636,45 @@ nav img {
 
 .left-p img {
   height: 500px;
-  padding: 2px 10px 2px 0; }
+  width: 100%; }
 
 .right-p {
   flex: 1;
-  background: white; }
+  background: white;
+  height: 500px; }
+
+.right-p .tab {
+  height: 20%;
+  width: 100%;
+  margin: 0;
+  background: #323232;
+  color: white; }
+
+.right-p .lower {
+  height: 80%;
+  width: 100%;
+  margin: 0;
+  background: blue; }
+
+.right-p .tab ul li {
+  color: blueviolet; }
 
 .right-p .messagebox {
   width: 100%;
-  height: 500px;
+  height: 100%;
   margin: 0 auto;
   background-color: #f5f5f5;
-  border-radius: 0 15px 15px 0;
-  border-left: 8px solid grey;
-  padding: 1em 1.25em;
-  box-shadow: 0 2rem 4rem -1rem rgba(0, 0, 0, 0.2); }
+  border-radius: 1px 2px 2px 1px;
+  border-left: 2px solid #323232;
+  box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.1); }
 
-.messagebox .message-body {
+.messagebox .messagebody {
   color: #12537e;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  padding: 1em 1.25em;
+  width: 500px;
+  position: absolute; }
+
+#right-content .messagebody {
+  right: -10;
+  overflow: hidden; }
